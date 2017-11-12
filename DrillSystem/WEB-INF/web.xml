@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-app_2_4.xsd"
+	version="2.4">
+
+
+	<servlet>
+		<servlet-name>UserRegistServlet</servlet-name>
+		<servlet-class>servlet.UserRegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserRegistServlet</servlet-name>
+		<url-pattern>/jsp/UserRegistServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/jsp/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>servlet.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/jsp/LogoutServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RegistQuestionServlet</servlet-name>
+		<servlet-class>servlet.RegistQuestionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistQuestionServlet</servlet-name>
+		<url-pattern>/jsp/RegistQuestionServlet</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>GetQuestionServlet</servlet-name>
+		<servlet-class>servlet.GetQuestionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetQuestionServlet</servlet-name>
+		<url-pattern>/jsp/GetQuestionServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReadQuestionServlet</servlet-name>
+		<servlet-class>servlet.ReadQuestionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadQuestionServlet</servlet-name>
+		<url-pattern>/jsp/ReadQuestionServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GradingServlet</servlet-name>
+		<servlet-class>servlet.GradingServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GradingServlet</servlet-name>
+		<url-pattern>/jsp/GradingServlet</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>GetHistoryServlet</servlet-name>
+		<servlet-class>servlet.GetHistoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetHistoryServlet</servlet-name>
+		<url-pattern>/jsp/GetHistoryServlet</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>ChangeQuestionServlet</servlet-name>
+		<servlet-class>servlet.ChangeQuestionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeQuestionServlet</servlet-name>
+		<url-pattern>/jsp/ChangeQuestionServlet</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>GoMypageServlet</servlet-name>
+		<servlet-class>servlet.GoMypageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoMypageServlet</servlet-name>
+		<url-pattern>/jsp/GoMypageServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
